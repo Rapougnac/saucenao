@@ -8,7 +8,7 @@ class Header {
   String? get thumbnail => data['thumbnail'];
 
   /// The index id.
-  int? get indexid => data['index_id'];
+  int? get indexId => data['index_id'];
 
   /// The index name.
   String? get indexName => data['index_name'];
