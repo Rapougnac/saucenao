@@ -20,4 +20,7 @@ class Header {
   int? get hidden => data['hidden'];
 
   const Header(this.data);
+
+  @override
+  String toString() => 'Header(data: $data)';
 }

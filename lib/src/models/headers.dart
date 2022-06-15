@@ -32,4 +32,7 @@ class Headers {
   int? get resultsReturned => rawHeaders['results_returned'];
 
   const Headers(this.rawHeaders);
+
+  @override
+  String toString() => 'Headers(rawHeaders: $rawHeaders)';
 }

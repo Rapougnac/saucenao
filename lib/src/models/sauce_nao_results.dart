@@ -24,4 +24,7 @@ class SauceNaoResults {
           ),
     ];
   }
+
+  @override
+  String toString() => 'SauceNaoResults(headers: $headers, results: $results)';
 }

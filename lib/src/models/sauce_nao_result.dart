@@ -111,4 +111,7 @@ class SauceNaoResult {
   String? get seigaId => data['seiga_id'];
 
   const SauceNaoResult(this.header, this.data);
+
+  @override
+  String toString() => 'SauceNaoResult(header: $header, data: $data)';
 }

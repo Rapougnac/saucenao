@@ -54,4 +54,7 @@ class SauceNao {
     _httpClient.close();
     return SauceNaoResults(json);
   }
+
+  @override
+  String toString() => 'SauceNao(apiKey: $apiKey, requestParams: $requestParams)';
 }
