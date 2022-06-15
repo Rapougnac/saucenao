@@ -51,6 +51,7 @@ class SauceNao {
     }
 
     final json = jsonDecode(body);
+    _httpClient.close();
     return SauceNaoResults(json);
   }
 }
