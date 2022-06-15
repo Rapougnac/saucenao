@@ -1,6 +1,6 @@
 name: saucenao
 description: A module to easily interact with the Saucenao API.
-version: 1.0.1
+version: 1.0.3
 homepage: https://www.github.com/Rapougnac/saucenao
 repository: https://www.github.com/Rapougnac/saucenao
 
