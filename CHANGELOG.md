@@ -1,3 +1,6 @@
+## 1.0.4
+- Close httpClient when request is terminated.
+
 ## 1.0.3
 - \-
 
