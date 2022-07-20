@@ -4,3 +4,4 @@
 library saucenao;
 
 export 'src/sauce_nio.dart' show SauceNao;
+export 'src/errors/sauce_nao_exeption.dart' show SauceNaoException;
