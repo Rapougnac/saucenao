@@ -1,3 +1,6 @@
+## 1.0.6
+- Export `SauceNaoExeption`
+
 ## 1.0.5
 - Add string serialization.
 
